@@ -19,9 +19,9 @@ Exapmles
 --------
 
 ```CSharp
-var reculyGateway = new RecurlyGateway();
+var recurlyGateway = new RecurlyGateway();
 
-var manager = reculyGateway.GetManager<SubscriptionManager>();
+var manager = recurlyGateway.GetManager<SubscriptionManager>();
 
 var existingAccount = new RecurlyAccount
 {
