@@ -1,4 +1,4 @@
-Salesforce.NET
+Recurly.NET
 ==============
 
 Recurly REST Api 2.0 wrapper.
