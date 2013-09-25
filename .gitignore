@@ -1,0 +1,12 @@
+*.suo
+*.log
+
+*.user
+
+[Bb]in*/
+[Oo]bj*/
+[Dd]ebug*/
+[Rr]elease*/
+[Cc]sx
+
+[Ll]ogs*/
