@@ -21,7 +21,7 @@ Exapmles
 ```CSharp
 var reculyGateway = new RecurlyGateway();
 
-reculyGateway.GetManager<SubscriptionManager>();
+var manager = reculyGateway.GetManager<SubscriptionManager>();
 
 var existingAccount = new RecurlyAccount
 {
@@ -36,5 +36,5 @@ var newSubscription = new RecurlySubscription
     Quantity = units                // number of units
 };
 
-SubscriptionManager.Create(newSubscription);
+manager.Create(newSubscription);
 ```
