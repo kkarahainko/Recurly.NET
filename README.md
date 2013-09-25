@@ -5,6 +5,7 @@ Recurly REST Api 2.0 wrapper.
 
 For first you have to define .config settings:
 
+```CSharp
 <appSettings>        
     <!-- Elmah -->
     ...
@@ -12,6 +13,7 @@ For first you have to define .config settings:
     <add key="RecurlyApiKey" value="0a7adbad2644484b9314a85493da57b0" />
 	<add key="RecurlyApiEndpoint" value="https://api.recurly.com/v2/" />
 </appSettings>
+```
 
 Exapmles
 --------
