@@ -10,7 +10,7 @@ For first you have to define .config settings:
     <!-- Elmah -->
     ...
     <!-- Recurly -->
-    <add key="RecurlyApiKey" value="0a7adbad2644484b9314a85493da57b0" />
+    <add key="RecurlyApiKey" value="{YOUR_API_KEY_HERE}" />
 	<add key="RecurlyApiEndpoint" value="https://api.recurly.com/v2/" />
 </appSettings>
 ```
