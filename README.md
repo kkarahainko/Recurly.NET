@@ -15,7 +15,7 @@ For first you have to define .config settings:
 </appSettings>
 ```
 
-Exapmles
+Examples
 --------
 
 ```CSharp
